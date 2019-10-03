@@ -1,11 +1,15 @@
 public class Pattern {
 
-
-	public static void main(String args[]) {
-
-		System.out.println(args[0]);
-		System.out.println(args[1]);
-		System.out.println(args[2]);
+	public static void main(int args[]) {
+		
+		for(int i=0;i<=args[0];i++) {
+			for(int j=5;j>=i;j--)
+			{
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+	}
 
 }
-}
+
